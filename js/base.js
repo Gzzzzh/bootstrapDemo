@@ -1,4 +1,10 @@
 $(function(){
+  new WOW().init()
+
+  $('#mynav').singlePageNav({
+    "offset":70
+  })
+
   $('[data-toggle="tooltip"]').tooltip()
 
   let productNameStyle = {

@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Demo</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/base.css">
 </head>
-<body data-spy="scroll" data-target="#mynav">
+<body data-spy="scroll" data-target="#mynav" data-offset="70">
   <nav class="navbar navbar-inverse" id="topnav">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -28,6 +29,7 @@
           <li><a href="#">首页</a></li>
           <li data-toggle="modal" data-target="#aboutModal"><a href="javascript:;">关于</a></li>
           <li data-toggle="modal" data-target="#loginModal"><a href="javascript:;">登陆</a></li>
+          <li><a href="./webServer.html">后台首页</a></li>
         </ul>
         <form class="navbar-form navbar-right">
           <div class="form-group">
@@ -176,21 +178,21 @@
   <!-- 缩略图 -->
   <div class="container" id="ad">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 wow fadeInUp" data-wow-offset="200">
           <img src="./img/webpack.png" alt="...">
           <div class="caption">
             <h3>webpack</h3>
             <p>Webpack 是当下最热门的前端资源模块化管理和打包工具。它可以将许多松散的模块按照依赖和规则打包成符合生产环境部署的前端资源。</p>
           </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 wow fadeInUp" data-wow-delay='0.5s' data-wow-offset="200">
           <img src="./img/Bootstrap.png" alt="...">
           <div class="caption">
             <h3>优站精选</h3>
             <p>Bootstrap 优站精选频道收集了众多基于 Bootstrap 构建、设计精美的、有创意的网站。</p>
           </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 wow fadeInUp" data-wow-delay="1s" data-wow-offset="200">
           <img src="./img/react.png" alt="...">
           <div class="caption">
             <h3>React</h3>
@@ -206,21 +208,21 @@
       <h2>产品介绍</h2>
     </div>
     <div class="row list-group-item list-group-item-info">
-      <div class="col-md-7">
+      <div class="col-md-7 wow rotateInDownLeft" data-wow-offset="200">
         <h3>图片0</h3>
         <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
       </div>
       <div class="col-md-5">
-        <img class="img-responsive" src="img/shoot1.png" alt="">
+        <img class="img-responsive wow rotateInDownRight" data-wow-offset="200" src="img/shoot1.png" alt="">
       </div>
     </div>
     <hr>
     <div class="row list-group-item list-group-item-success">
       <div class="col-md-5">
-        <img class="img-responsive" src="img/shoot2.jpg" alt="">
+        <img class="img-responsive wow rotateInDownLeft" data-wow-offset="200" src="img/shoot2.jpg" alt="">
       </div>
       <div class="col-md-7">
-        <div class="pull-right">
+        <div class="pull-right wow rotateInDownRight" data-wow-offset="200">
           <h3 class="pull-right">图片1</h3>
           <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
         </div>
@@ -228,12 +230,12 @@
     </div>
     <hr>
     <div class="row list-group-item">
-      <div class="col-md-7">
+      <div class="col-md-7 wow rotateInDownLeft" data-wow-offset="200">
         <h3>图片2</h3>
         <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
       </div>
       <div class="col-md-5">
-        <img class="img-responsive" src="img/shoot3.jpg" alt="">
+        <img class="img-responsive wow rotateInDownRight" data-wow-offset="200" src="img/shoot3.jpg" alt="">
       </div>
     </div>
   </div>
@@ -241,7 +243,7 @@
   <!-- 标签页和意见 -->
   <div class="container" id="suggestion">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-8 wow bounceInLeft" data-wow-duration="2s">
         <div>
         <!-- Nav tabs -->
         <ul class="nav nav-tabs product-name" role="tablist">
@@ -255,7 +257,7 @@
             <div class="row list-group-item">
                 <div class="col-md-5">
                   <h3>图片0</h3>
-                  <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                  <p>泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦</p>
                 </div>
                 <div class="col-md-7">
                   <img class="img-responsive" src="img/shoot1.png" alt="">
@@ -268,9 +270,9 @@
                 <img class="img-responsive" src="img/shoot2.jpg" alt="">
               </div>
               <div class="col-md-5">
-                <div class="pull-right">
-                  <h3 class="pull-right">图片1</h3>
-                  <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                <div>
+                  <h3>图片1</h3>
+                  <p>泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦泽钦</p>
                 </div>
               </div>
             </div>
@@ -289,7 +291,7 @@
           </div>
         </div> 
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 wow bounceInRight" data-wow-duration="2s">
         <div class="user-box">
           <div class="user">
             <img src="img/shoot1.png" class="img-circle" style="width: 50px;height: 50px;">
@@ -307,9 +309,19 @@
       </div>
     </div>
   </div>
-    
+  <footer>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Make By Gzzzzh</p>
+        </div>
+      </div>
+    </div>
+  </footer>  
 </body>
 <script src="./js/jquery.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="js/jquery.singlePageNav.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/base.js"></script>
 </html>
